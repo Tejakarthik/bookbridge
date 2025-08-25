@@ -1,12 +1,74 @@
- BookBridge 
+BookBridge
 
-A book marketplace for the users to trade books with thier friends or find new friemds and exchange with them.
+ A book marketplace for the users to trade books with thier friends or find new friemds and exchange with them.
+
+ How BookBridge Works
+
+ Main Marketplace Page
+- Browse Books: View featured books in an interactive carousel
+- Search Books: Use the search bar to find specific books via Google Books API
+- Book Discovery: Click on any book to see detailed information
+- Add to Favorites: Click the heart icon to save books to your "Liked Books" collection
+note- in this page the all genre section loads books from the mock data but all the other book tabs fetch the books from the google books api i used the limit of 5 books. 
+
+ Liked Books Page
+What you'll find here:
+- All books you've hearted/liked from the marketplace
+- Your personal wishlist of books you want to read or trade for
+- Books saved from search results or featured carousel
+- Easy access to remove books from your favorites
+
+User Actions:
+- View all your liked books in a grid layout
+- Click on any book to see full details in a modal
+- Remove books from favorites by clicking the heart icon again
+- Search through your liked books collection
+
+ My Books Page
+What you'll find here:
+- Books you own and are willing to trade
+- Your personal library that others can browse
+- Books you've uploaded to the platform
+- Trading availability status for each book
+
+User Actions:
+- Set books as "available for trade" or "not available"
+- View details of books in your collection
+- Manage your trading inventory
+
+ How Trading Works
+
+ When you click "See The Book" button:
+1. Book Modal Opens: Shows detailed book information including:
+   - Book cover, title, author
+   - Description and rating
+   - Current owner information
+   - Trading availability status
+
+ When you click "Trade" button:
+1. Trade Modal Opens: Displays trade request form
+2. Select Your Books: Choose which of your books you want to offer in exchange
+3. Send Request: Trade request is sent to the book owner
+
+ Trade Process:
+1. Browse → Find a book you want
+2. Request → Offer your books in exchange  
+3. Negotiate → Chat with owner about the trade
+4. Meet/Ship → Arrange exchange method
+5. Complete → Both parties confirm successful trade
+
+
+ Mobile Experience
+- Hamburger Menu: Access all pages via mobile-friendly navigation
+- Touch-Optimized: Large buttons and touch targets for easy mobile use
+- Responsive Search: Centered search bar on mobile layout
+- Swipe Carousel: Swipe through featured books on mobile devices
 
  Learning Objectives
 
 This project was created as a hands-on learning experience of Svelte and SvelteKit concepts through building a real-world application. Each feature implementation taught me specific Svelte concepts and patterns.
 
- Features & Svelte Concepts Learned
+Features & Svelte Concepts Learned
 
  1. Book Search with Google Books API
  Concepts Learned:
