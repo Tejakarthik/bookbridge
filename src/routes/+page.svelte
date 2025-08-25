@@ -472,12 +472,12 @@
 
 	@media (max-width: 1440px) {
 		.books-grid {
-			grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+			grid-template-columns: repeat(auto-fit, minmax( 1fr, 1fr));
 			gap: 3rem;
 		}
 
 		.book-card {
-			min-width: 550px;
+			min-width: 510px;
 		}
 
 		.book-cover-image {
